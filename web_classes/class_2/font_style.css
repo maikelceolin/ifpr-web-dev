@@ -1,0 +1,17 @@
+
+/* comentario */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.mystyle {
+    font-style: italic;
+    tab-size: 4;
+
+}
+
+.mycolor {
+    color:darkblue;
+}
