@@ -1,6 +1,7 @@
 
 /* comentario */
 
+/* On the body, we're formating the the whole page*/
 body {
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -8,11 +9,14 @@ body {
     color: lightgreen;
 }
 
+
+/* we use .name to define a style class*/
 .mystyle {
     font-style: italic;
     color:yellow;
 }
 
+/* a (anchor) we use when formating links */
 a {
     color:blue;
 }
