@@ -2,16 +2,21 @@
 /* comentario */
 
 body {
+    background-color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
+    color: lightgreen;
 }
 
 .mystyle {
     font-style: italic;
-    tab-size: 4;
-
+    color:yellow;
 }
 
-.mycolor {
-    color:darkblue;
+a {
+    color:blue;
+}
+
+a:visited {
+    color:rgb(144, 144, 253)
 }
