@@ -2,7 +2,7 @@
 /* comentario */
 
 /* On the body, we're formating the the whole page*/
-body {
+.body {
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
@@ -17,10 +17,10 @@ body {
 }
 
 /* a (anchor) we use when formating links */
-a {
+.a {
     color:blue;
 }
 
-a:visited {
+.a:visited {
     color:rgb(144, 144, 253)
 }
