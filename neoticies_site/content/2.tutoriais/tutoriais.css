@@ -1,0 +1,23 @@
+main {
+    background-color: rgb(20,20,20);
+    height: 1000px;
+    grid-area: m;
+}
+
+    h1 {
+        font-size: 16pt;
+    }
+
+
+    #textleft {
+        width: 45%;
+        float:left;
+        text-align: justify;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+
+    #textright {
+        width: 45%;
+        float:right;
+    }
