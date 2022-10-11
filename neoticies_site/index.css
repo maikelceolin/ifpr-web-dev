@@ -78,7 +78,7 @@ header {
 button{
     border: none;
     background-color: rgb(10,10,10);
-    color:#03FA6E;
+    color:rgb(72, 249, 164);
     font-family: 'Ubuntu', sans-serif;
     font-size: 16pt;
     text-align: center;
@@ -109,6 +109,9 @@ aside {
 
 footer {
     background-color: black;
-    height: 100px;
+    padding-top: 30px;
+    text-align: center;
+    color:darkgray;
+    height: 300px;
     grid-area: f;
 }

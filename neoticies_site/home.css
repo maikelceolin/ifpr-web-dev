@@ -1,6 +1,6 @@
 main {
     background-color: rgb(30,30,30);
-    height: 1000px;
+    height: 1120px;
     grid-area: m;
 }
 
@@ -20,5 +20,11 @@ main {
     #computer {
         width: 45%;
         float:right;
+        padding-top: 100px;
+    }
+
+    #image-home {
+        width: 100%;
+        float:bottom;
         padding-top: 100px;
     }
