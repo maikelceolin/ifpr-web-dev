@@ -1,11 +1,11 @@
 main {
-    background-color: rgb(20,20,20);
+    background-color: rgb(30,30,30);
     height: 1000px;
     grid-area: m;
 }
 
     h1 {
-        font-size: 16pt;
+        font-size: 20pt;
     }
 
 
@@ -17,7 +17,8 @@ main {
         padding-left: 40px;
     }
 
-    #textright {
+    #computer {
         width: 45%;
         float:right;
+        padding-top: 100px;
     }

@@ -8,6 +8,7 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
     background-color: rgb(10,10,10);
     color: #7dfa9c;
+    line-height: 1.5;
 }
 
 .container {
@@ -25,6 +26,7 @@ header {
     height: 80px;
     grid-area: n;
     color: #03FA6E;
+    font-size:16pt;
     
 }
     #logo {
@@ -38,7 +40,7 @@ header {
         width: 10%;
         float: left;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 25px;
     }
 
     #aulas {
@@ -46,7 +48,7 @@ header {
         width: 10%;
         float: left;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 25px;
     }
 
     #notes {
@@ -54,7 +56,7 @@ header {
         width: 15%;
         float: left;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 25px;
     }
 
     #suporte {
@@ -62,8 +64,32 @@ header {
         width: 15%;
         float: left;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 25px;
     }
+
+    .a{
+        color: #03FA6E;
+    }
+
+    .a:visited {
+        color: #03FA6E;
+    }
+
+button{
+    border: none;
+    background-color: rgb(10,10,10);
+    color:#03FA6E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16pt;
+    text-align: center;
+}
+
+button:hover{
+    color:aqua;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
 
 aside {
