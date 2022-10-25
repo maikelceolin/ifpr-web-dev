@@ -1,0 +1,48 @@
+main {
+    background: url(../../../img/gray-mosaic.jpeg);
+    height: 800px;
+    grid-area: m;
+}
+
+    h1 {
+        font-size: 20pt;
+        color: #0A70B7
+    }
+
+
+    #textleft {
+        width: 45%;
+        float:left;
+        background-color: whitesmoke;
+        text-align: justify;
+        padding: 30px;
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    #ball {
+        width: 40%;
+        float:right;
+        padding-top: 40px;
+        margin-left: 5px;
+    }
+
+    #olympic-rings {
+        clear:left;
+        float:left;
+        width: 10%;
+        padding-top: 80px;
+        margin-left: 40px;
+    }
+
+    #text-olympic {
+        width: 650px;
+        float:left;
+        background-color: whitesmoke;
+        text-align: justify;
+        padding: 30px;
+        margin-left: 250px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }

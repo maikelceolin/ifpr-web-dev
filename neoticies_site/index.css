@@ -4,10 +4,10 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    background-color: rgb(26, 26, 26);
+    background-color: #3A3632;
     font-family: 'Ubuntu', sans-serif;
-    background-color: rgb(10,10,10);
-    color: #7dfa9c;
+    background-color: #3A3632;
+    color: #161513;
     line-height: 1.5;
 }
 
@@ -22,7 +22,7 @@ html, body {
 
 
 header {
-    background-color: rgb(10,10,10);
+    background-color: #3A3632;
     height: 80px;
     grid-area: n;
     color: #03FA6E;
@@ -77,23 +77,23 @@ header {
 
 button{
     border: none;
-    background-color: rgb(10,10,10);
-    color:rgb(72, 249, 164);
+    background-color: #3A3632;
+    color:rgb(68, 245, 192);
     font-family: 'Ubuntu', sans-serif;
     font-size: 16pt;
     text-align: center;
 }
 
 button:hover{
-    color:aqua;
+    color:#1AA3DD;
     user-select: none;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 
 aside {
-    background-color: rgb(10,10,10);
+    background-color: #3A3632;
     height: 50px;
     grid-area: a;
 }

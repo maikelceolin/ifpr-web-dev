@@ -1,0 +1,40 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Verificador de Idade</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="file.js"></script>
+    </head>
+    <body>
+       <header>
+            <h1 id="titulo" style="color:white">Verificador de Idade</h1>
+       </header>
+       <section>
+            <div id="form">
+                <p>
+                    Ano de Nascimento: <input type="number" name="nasc" id="anoNasc">
+                </p>
+                <p>
+                    Sexo: <input type="radio" name="radsex" id="mas" checked>
+                    <label for="mas">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+
+                </p>
+                <p>
+                    <br><br><input type="button" value="Verificar" id="btn-check" onclick="checkYear()">
+                </p>
+           </div>
+           <div id="result"></div>
+           <img id="foto"width="300px">
+           
+       </section>
+       <footer>
+            &copy;Gregspot
+       </footer>
+       
+    </body>
+    </html>
