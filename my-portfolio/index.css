@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    padding-top: 80px;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to right, rgb(42, 128, 102) , rgb(143, 55, 184),  rgb(35, 48, 105));
+}
+
+section {
+    height: 800px;
+    width: 70%;
+    margin: auto;
+    
+}
+
+header {
+    background-color: whitesmoke;
+    height: 30%;
+
+}
+
+    #foto {
+        height: 100%;
+        width: 240px;
+        float: left;
+
+    }
+
+    #header-up {
+        background-image: linear-gradient(rgb(24, 24, 95),rgb(24,24,125), rgb(44, 44, 180));
+        height: 120px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        font-size: 18pt;
+        color: white;
+    }
+
+    #header-down {
+        height: 50%;
+        height: 120px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+
+main {
+    background-color: lightpink;
+    height: 60%;
+}
+
+footer {
+    background-color: lightgreen;
+    height: 10%;
+}
