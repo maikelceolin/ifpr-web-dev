@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     padding: 0;
     margin: 0;
     background-color: lightgray;
@@ -14,8 +17,12 @@ section {
     box-shadow: 5px 5px 5px darkgray;
     background-color: white;
     width: 500px;
-    margin: auto;
+    float: left;
 }
+
+    #mapa {
+        float:right;
+    }
 
 h1 {
     text-align: center;

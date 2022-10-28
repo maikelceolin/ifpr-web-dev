@@ -15,7 +15,7 @@ section {
 }
 
 header {
-    background-color: whitesmoke;
+    background-color: rgb(29, 34, 83);
     height: 30%;
 
 }
@@ -47,8 +47,17 @@ header {
         align-items: center;
     }
 
+        .menu-icon:hover {
+            width: 80px;
+            cursor: pointer;
+            transition: 0.3s;
+            transition-delay: 0.05s;
+        }
+
 main {
-    background-color: lightpink;
+    padding: 30px;
+    font-size: 18pt;
+    background-color: rgb(183, 182, 255);
     height: 60%;
 }
 

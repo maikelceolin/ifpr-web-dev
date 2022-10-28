@@ -7,25 +7,37 @@ main {
 
     h1 {
         font-size: 24pt;
-        color: #000000;
+        color: #162396;
         padding: 30px;
+        padding-left: 180px;
+        text-shadow: 1pt 1pt 1pt rgb(50, 65, 109);
     }
 
-    .aula-btn {
-        float:left;
-        padding: 10px;
-    }
-
-    #textleft {
-        width: 45%;
-        float:left;
-        text-align: justify;
-        padding-top: 30px;
-        padding-left: 40px;
+    #display-aula {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        justify-content: left;
         background-color: whitesmoke;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px gray;
+        width: 80%;
     }
 
-    #textright {
-        width: 45%;
-        float:right;
+    .aula-icon {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:start;
+        text-align: center;
+        color: #162396;
+        font-size: 14pt;
+    }
+
+    .aula-btn:hover {
+        scale: 1.5;
+        transition: 0.5s;
+        
     }

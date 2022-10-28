@@ -2,35 +2,37 @@ main {
     background: url(./img/gray-mosaic.jpeg);
     height: 700px;
     grid-area: m;
+    font-size: 12pt;
 }
 
     h1 {
-        font-size: 20pt;
+        font-size: 16pt;
         color:#0A70B7
     }
 
 
     #textleft {
-        width: 45%;
+        width: 500px;
         height:500px;
         float:left;
         background-color: whitesmoke;
         text-align: justify;
         padding: 30px;
-        margin-left: 40px;
+        margin-left: 80px;
         margin-top: 40px;
         margin-bottom: 30px;
+        border-radius: 50px;
+        box-shadow: 5px 5px 5px rgb(163, 163, 163);
     }
 
     #computer {
-        width: 45%;
+        width: 50%;
         float:right;
-        padding-top: 100px;
-        padding-left: 20px;
+        padding-top: 50px;
     }
 
-    #image-home {
-        width: 100%;
-        float:bottom;
-        padding-top: 100px;
+    #programer {
+        border-radius: 50px;
+        box-shadow: 5px 5px 5px gray;
+        
     }
