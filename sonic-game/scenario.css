@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,67 +8,128 @@
 
 body {
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Orbitron', sans-serif;
 }
 
-#game-board {
-    width: 800px;
-    height: 432px;
-    border: solid 1px black;
-    margin:auto;
-    position: relative;
-    overflow: hidden;
-    background-image: url("./img/scenario-blank.png");
-    background-size: 800px;
-    
-}
-
-#thorn {
-    position: absolute;
-    bottom:11%;
-    animation: obs 2s linear infinite;
-}
-
-.sonic {
-    position: absolute;
-    bottom: 11%;
-    left:10%;
-}
-
-.sonic-jump {
-    animation: jump 800ms ease-in-out;
-}
-
-@keyframes obs {
-    from {
-        right:-10%;
+main {
+    display: flex;
+    flex-direction: column;
+}   
+    .game-board {
+        width: 800px;
+        height: 432px;
+        border: solid 1px black;
+        margin:auto;
+        position: relative;
+        overflow: hidden;
+        background-image: url("./img/scenario-blank.png");
+        background-size: 800px;
+        
     }
 
-    to {
-        right:100%;
+        .thorn {
+            position: absolute;
+            bottom:11%;
+            /*right: 545px -- shock */
+            right: -10%;
+            /*animation: movement 2s linear infinite;*/
+            z-index: 2;
+        }
+
+        .tree {
+            position: absolute;
+            bottom:11%;
+            right: -20%;
+            /*animation: tree 5s linear infinite;*/
+            z-index: 1;
+        }
+
+        .tree-move {
+            animation: tree 3s linear infinite;
+        }
+
+        .ring {
+            position: absolute;
+            bottom:18%;
+            right: 30%;
+            z-index: 3;
+            /*animation: movement 2s linear infinite;*/
+        }
+
+        .speed {
+            animation: movement 2s linear infinite;
+        }
+
+        .sonic {    
+            position: absolute;
+            bottom: 11%;
+            left:10%;
+            z-index: 4;
+        }
+
+        .sonic-jump {
+            animation: jump 800ms ease-in-out;
+        }
+
+        @keyframes movement {
+            from {
+                right:-10%;
+            }
+
+            to {
+                right:100%;
+            }
+        }
+
+        @keyframes tree {
+            from {
+                right:-20%;
+            }
+
+            to {
+                right:100%; 
+            }
+        }
+
+
+
+        @keyframes jump {
+            0% {
+                bottom: 11%;
+            }
+
+            40% {
+                bottom: 35%;
+            }
+
+            50% {
+                bottom: 38%;
+            }
+
+            60% {
+                bottom: 35%;
+            }
+
+            100% {
+                bottom: 11%;
+            }
+
+            
+        }
+
+    #audio-control {
+        padding: 10px;
+        width: 30%;
+        align-items: center;
+        margin: auto;
     }
-}
 
-@keyframes jump {
-    0% {
-        bottom: 11%;
+    #info {
+        padding: 20px;
+        width: 30%;
+        align-items: center;
+        margin: auto;
+        text-align: center;
     }
-
-    40% {
-        bottom: 35%;
-    }
-
-    50% {
-        bottom: 38%;
-    }
-
-    60% {
-        bottom: 35%;
-    }
-
-    100% {
-        bottom: 11%;
-    }
-
-    
-}
-
