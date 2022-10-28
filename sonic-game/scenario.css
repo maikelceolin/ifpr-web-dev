@@ -26,10 +26,14 @@ body {
     animation: obs 2s linear infinite;
 }
 
-#sonic {
+.sonic {
     position: absolute;
     bottom: 11%;
     left:10%;
+}
+
+.sonic-jump {
+    animation: jump 800ms ease-in-out;
 }
 
 @keyframes obs {
@@ -43,12 +47,26 @@ body {
 }
 
 @keyframes jump {
-    from {
+    0% {
         bottom: 11%;
     }
 
-    to {
+    40% {
+        bottom: 35%;
+    }
+
+    50% {
         bottom: 38%;
     }
+
+    60% {
+        bottom: 35%;
+    }
+
+    100% {
+        bottom: 11%;
+    }
+
+    
 }
 
